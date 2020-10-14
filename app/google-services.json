@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "488612873140",
+    "firebase_url": "https://hwealth-26302.firebaseio.com",
+    "project_id": "hwealth-26302",
+    "storage_bucket": "hwealth-26302.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:488612873140:android:9706e91fbab06d149a68e1",
+        "android_client_info": {
+          "package_name": "com.servibaypro.hwealth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "488612873140-8c4rh83m8sojjbhl633upemt9jfsi3le.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCLPPzIeZmNC_QYmXQDtvp4NPRW0GLqjgY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "488612873140-8c4rh83m8sojjbhl633upemt9jfsi3le.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
