@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyle"
+            android:layout_width="wrap_content"
+            android:layout_centerInParent="true"
+            android:visibility="gone"
+            android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_marginTop="50dp"
+        android:layout_height="match_parent"
+        android:layout_margin="30dp"
+        tools:context=".authentication.SignUpFragment">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Sign Up"
+                android:textSize="20sp"
+                android:layout_marginBottom="8dp"
+                android:textStyle="bold"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:text="Email"
+                android:textColor="@color/deepPink"
+                android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:id="@+id/emailEditText"
+                    android:layout_marginTop="16dp"
+                    android:inputType="textEmailAddress"
+                    android:layout_height="wrap_content"
+                    android:textColorHint="@color/deepPink"
+                    />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_marginTop="20dp"
+                android:text="Password"
+                android:textColor="@color/deepPink"
+                android:layout_height="wrap_content"/>
+
+                <EditText
+                    android:layout_width="match_parent"
+                    android:id="@+id/passwordEditText"
+                    android:inputType="textPassword"
+                    android:layout_marginTop="16dp"
+                    android:textColorHint="@color/deepPink"
+                    android:layout_height="wrap_content"
+                     />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="16dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_weight="2"
+                android:text="Are you a medical practitioner"
+                android:layout_height="wrap_content"/>
+
+            <Switch
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
+                android:id="@+id/switchBtn"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp">
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:id="@+id/checkbox"
+                android:buttonTint="@color/deepPink"
+                android:layout_height="wrap_content"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="I agree to the Terms of Services and Privacy Policy"
+                android:paddingBottom="8dp"
+                android:textColor="@color/deepPink" />
+
+
+        </LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:background="@drawable/rect_background"
+                android:gravity="center"
+                android:text="Continue"
+                android:onClick="navigateToSignIn"
+                android:layout_marginTop="30dp"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"
+                android:id="@+id/continueBtn"
+                android:layout_height="wrap_content"/>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:gravity="center_horizontal"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Have an Account?"
+                android:textSize="16sp"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:text="Sign in"
+                android:id="@+id/signInText"
+                android:textColor="@color/deepPink"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+    </RelativeLayout>
+</ScrollView>
